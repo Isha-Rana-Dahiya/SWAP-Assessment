@@ -4,9 +4,12 @@ Form analysis
 Step 1: Setup Environment
 1.	Install Python (3.8+)
 2.	Install required libraries:
+3.	
 pip install pdfplumber pandas numpy
+
 Step 2: Create Solution Architecture
 PDF Input → PDF Parser → Data Extractor → Score Calculator → Results
+
 Step 3: Implementation Code
 Create a Python script swap_scorer.py:
 import pdfplumber
